@@ -1,4 +1,4 @@
-package com.spring.boot;
+package main.java.demo.micro.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +17,6 @@ public class DemoApplication {
 	@Bean
 	public Docket swaggerConfig() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.spring.boot")).build();
+				.apis(RequestHandlerSelectors.basePackage("demo.micro.service")).build();
 	}
 }

@@ -1,4 +1,4 @@
-package com.spring.boot.service;
+package main.java.demo.micro.service.service;
 
 public class VolatileData {
     public volatile int counter = 0;

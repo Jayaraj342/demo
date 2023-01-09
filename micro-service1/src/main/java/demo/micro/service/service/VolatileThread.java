@@ -1,4 +1,4 @@
-package com.spring.boot.service;
+package main.java.demo.micro.service.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

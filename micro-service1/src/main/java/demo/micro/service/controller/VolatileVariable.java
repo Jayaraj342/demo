@@ -1,7 +1,7 @@
-package com.spring.boot.controller;
+package main.java.demo.micro.service.controller;
 
-import com.spring.boot.service.VolatileData;
-import com.spring.boot.service.VolatileThread;
+import demo.micro.service.service.VolatileData;
+import demo.micro.service.service.VolatileThread;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
